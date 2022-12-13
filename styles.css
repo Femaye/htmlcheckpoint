@@ -1,0 +1,62 @@
+ body{
+    font-family: roboto;
+ }
+ 
+ nav {
+    display: flex;
+    background-color: rgba(127, 255, 212, 0.041);
+    justify-content: center;    
+  }
+
+  /* Style the list inside the menu */
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+} 
+
+li{
+    padding-left: 100px;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+    font-family: roboto;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.login{
+    display: flex;
+    padding: 50px 0 0 25px;
+
+}
+
+.signup{
+    display:flex;
+    padding: 50px 0 0 25px;
+}
+
+.passage{
+    justify-content: center;
+    padding: 10px 250px;
+
+}
+
+.video{
+    justify-content: center;
+    padding: 0 0 0 350px;
+}
+
+.about{
+    justify-content: center;
+    align-content: center;
+    padding-left: 250px;
+} 
